@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: brown;
+}
+
+.grid {
+   
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+
+.first-parent, .second-parent {
+    min-height: 30%;
+    width: 70%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 1px 1px red;
+    border-radius: 20px;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    background-color: grey;
+    color: white;
+
+}
+.btn-div {
+    width: 80%;
+
+}
+
+button {
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 20px;
+    font-size: 16px;
+
+    font-weight: 900;
+    font-style: italic;
+    
+}
+
+input {
+    
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+.output {
+    width: 80%;
+}
+.grocery  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
+}
+
+
+
+.display-none {
+    display: none;
+}
+.action-red {
+    display: block;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 0.3em;
+    color: red;
+}
+
+.action-green {
+    display: block;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 0.3em;
+    color: green;
+}
+
+
+.second-red {
+    border: 1px solid red;
+    padding: 0.3em;
+    border-radius: 10px;
+    color: red;
+    font-weight: 900;
+}
